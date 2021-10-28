@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   tools:showIn = "navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/img_2"
+            android:title="Amazon"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/instagram"
+            android:title="Instagram"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/facebook"
+            android:title="Facebook"
+            android:menuCategory="secondary"
+            />
+
+
+
+                <item
+                    android:id="@+id/nav_myorder"
+                    android:icon="@drawable/aktu"
+                    android:title="AKTU"
+                    android:menuCategory="secondary"
+                    />
+
+                <item
+                    android:id="@+id/nav_mycart"
+                    android:icon="@drawable/hindustantimes"
+                    android:title="News"
+                    android:menuCategory="secondary"
+                    />
+
+                <item
+                    android:id="@+id/nav_mywhislist"
+                    android:icon="@drawable/dontpress1"
+                    android:title="Don't Press"
+                    android:menuCategory="secondary"
+                    />
+
+                <item
+                    android:id="@+id/nav_myaccount"
+                    android:icon="@drawable/dontpress2"
+                    android:title="Don't Press"
+                    android:menuCategory="secondary"
+                    />
+
+
+
+
+
+
+
+
+
+        <item android:title=""
+            android:menuCategory="secondary"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_language"
+                    android:icon="@drawable/mylanguageicon"
+                    android:title="Choose Language"
+                    android:menuCategory="secondary"
+                    />
+
+                <item
+                    android:id="@+id/nav_notification"
+                    android:icon="@drawable/mynotificatioiconn"
+                    android:title="Notification"
+                    android:menuCategory="secondary"
+                    />
+
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/mysettingficon"
+                    android:title="Settings"
+                    android:menuCategory="secondary"
+                    />
+
+                <item
+                    android:id="@+id/nav_helpcentre"
+                    android:icon="@drawable/helpcentreicon"
+                    android:title="Help Centre"
+                    android:menuCategory="secondary"
+                    />
+
+
+
+
+
+
+
+
+            </menu>
+
+
+
+        </item>
+
+    </group>
+
+</menu>
